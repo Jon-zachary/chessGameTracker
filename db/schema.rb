@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 20170221012352) do
     t.string   "openingName"
     t.string   "ecoCode"
     t.integer  "gameLength"
-    t.float    "result"
+    t.string   "result"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end

@@ -10,7 +10,7 @@ class CreateGames < ActiveRecord::Migration[5.0]
       t.string :openingName
       t.string :ecoCode
       t.integer :gameLength
-      t.float :result
+      t.string :result
 
       t.timestamps
     end
